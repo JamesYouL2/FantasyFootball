@@ -1,0 +1,7 @@
+*.pyc
+oauth2yahoo.json
+roster.txt
+.DS_Store
+test.tab
+auth/oauth2yahoo.json
+*.xlsx

@@ -1,0 +1,157 @@
+PLAYER	STD	1/2 PPR	PPR
+Christian McCaffrey	59	61	63
+Derrick Henry	53	55	57
+Dalvin Cook	52	54	56
+Alvin Kamara	49	51	53
+Aaron Jones	46	48	50
+Austin Ekeler	41	43	45
+Nick Chubb	40	41	42
+Jonathan Taylor	40	41	42
+Antonio Gibson	39	40	41
+Saquon Barkley	38	40	42
+Joe Mixon	37	39	41
+Ezekiel Elliott	38	39	40
+Najee Harris	32	34	36
+Chris Carson	26	27	29
+D'Andre Swift	25	27	29
+David Montgomery	22	23	24
+Darrell Henderson Jr.	19	20	21
+Miles Sanders	19	20	21
+Clyde Edwards-Helaire	17	19	21
+Damien Harris	17	18	19
+Javonte Williams	16	18	20
+Chase Edmonds	15	17	19
+Myles Gaskin	14	16	18
+Mike Davis	14	16	18
+Josh Jacobs	15	16	17
+Kareem Hunt	11	13	15
+James Robinson	11	13	15
+Elijah Mitchell	11	13	14
+Ty'Son Williams	10	11	12
+Leonard Fournette	10	11	12
+Tony Pollard	7	8	10
+Jamaal Williams	7	8	10
+James White	7	8	10
+Melvin Gordon III	7	8	9
+Devin Singletary	6	8	9
+Nyheim Hines	5	6	8
+James Conner	6	6	7
+Michael Carter	5	6	8
+Sony Michel	5	6	7
+Kenyan Drake	4	6	7
+Kenneth Gainwell	4	5	6
+AJ Dillon	4	5	6
+Cordarrelle Patterson	4	5	6
+Trey Sermon	4	5	6
+Ronald Jones II	4	5	5
+Latavius Murray	4	5	5
+Tony Jones Jr.	4	4	5
+Zack Moss	4	4	5
+Alexander Mattison	4	4	5
+J.D. McKissic	2	4	5
+Carlos Hyde	2	3	4
+Ty Johnson	2	3	4
+Mark Ingram II	2	3	4
+David Johnson	2	3	4
+Damien Williams	1	2	3
+Chuba Hubbard	1	2	3
+Phillip Lindsay	1	2	3
+Darrel Williams	1	2	3
+Samaje Perine	1	2	3
+Salvon Ahmed	1	2	3
+Devontae Booker	1	2	3
+Justin Jackson	1	2	3
+Larry Rountree III	1	2	2
+Alex Collins	1	2	3
+Rhamondre Stevenson	1	2	2
+Jaret Patterson	1	2	2
+Malcolm Brown	1	2	2
+Peyton Barber	1	2	2
+PLAYER	STD	1/2 PPR	PPR
+Davante Adams	43	45	47
+Tyreek Hill	42	44	46
+Stefon Diggs	37	39	41
+DeAndre Hopkins	35	36	38
+Calvin Ridley	34	36	38
+Justin Jefferson	32	34	36
+Keenan Allen	31	33	35
+D.K. Metcalf	31	33	35
+CeeDee Lamb	29	31	33
+Cooper Kupp	27	29	31
+Amari Cooper	26	28	30
+A.J. Brown	25	27	29
+Allen Robinson II	24	26	28
+D.J. Moore	24	26	28
+Tyler Lockett	24	26	28
+Terry McLaurin	24	26	28
+Chris Godwin	23	25	27
+Mike Evans	21	23	25
+Tee Higgins	19	21	23
+Mike Williams	19	20	21
+Adam Thielen	18	19	20
+Deebo Samuel	18	19	20
+Robert Woods	18	19	20
+Ja'Marr Chase	18	19	20
+Julio Jones	18	19	20
+Antonio Brown	17	18	20
+Courtland Sutton	16	17	19
+Diontae Johnson	15	17	19
+Corey Davis	15	17	19
+DeVonta Smith	15	17	19
+Robby Anderson	15	17	18
+Chase Claypool	15	16	17
+Brandin Cooks	14	15	16
+Rondale Moore	13	14	15
+JuJu Smith-Schuster	11	13	15
+Sterling Shepard	11	13	15
+Kenny Golladay	11	13	14
+Tyler Boyd	11	13	14
+Odell Beckham Jr.	10	11	13
+Marquise Brown	10	11	12
+Jaylen Waddle	9	10	11
+Marvin Jones Jr.	9	10	11
+Will Fuller V	9	10	11
+Laviska Shenault Jr.	9	10	11
+Michael Pittman Jr.	9	10	11
+D.J. Chark Jr.	9	10	11
+Tim Patrick	9	10	11
+Jakobi Meyers	7	9	10
+Brandon Aiyuk	7	8	9
+Darnell Mooney	7	8	9
+Michael Thomas	6	7	8
+Elijah Moore	6	7	8
+Emmanuel Sanders	6	7	8
+DeVante Parker	6	7	8
+Mecole Hardman	5	6	7
+Christian Kirk	5	6	7
+Cole Beasley	4	5	6
+Nelson Agholor	4	5	6
+Henry Ruggs III	4	5	6
+Jerry Jeudy	3	4	5
+Jarvis Landry	3	4	5
+Terrace Marshall Jr.	3	4	5
+Michael Gallup	2	3	4
+Curtis Samuel	2	3	4
+Rashod Bateman	2	3	4
+K.J. Osborn	2	3	4
+Bryan Edwards	2	3	4
+Tyrell Williams	2	3	4
+Jalen Reagor	2	3	4
+KJ Hamler	1	2	3
+Zach Pascal	1	2	3
+Marquez Callaway	1	2	3
+Russell Gage	1	2	3
+Gabriel Davis	1	2	3
+Sammy Watkins	1	2	3
+Van Jefferson	1	2	3
+Hunter Renfrow	0	2	3
+Darius Slayton	1	2	2
+Marquez Valdes-Scantling	1	2	2
+Quez Watkins	1	1	1
+A.J. Green	1	1	1
+Dyami Brown	1	1	1
+Quintez Cephus	1	1	1
+Anthony Schwartz	1	1	1
+Donovan Peoples-Jones	1	1	1
+Jamison Crowder	1	1	1
+Amon-Ra St. Brown	1	1	1
