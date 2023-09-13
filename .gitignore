@@ -5,3 +5,4 @@ roster.txt
 test.tab
 auth/oauth2yahoo.json
 *.xlsx
+*.tab
