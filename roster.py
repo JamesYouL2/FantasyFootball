@@ -3,6 +3,9 @@
 from yahoologin import yahoologin
 import csv
 import pandas as pd
+import logging
+
+logging.basicConfig(level=logging.info)
 class Roster:
     def __init__(self, leagueid, numteams = 10):
         self.leagueid = leagueid
@@ -26,6 +29,7 @@ class Roster:
             url = 'https://fantasysports.yahooapis.com/fantasy/v2/team/'+str(gameid)+'.l.'+str(leagueid)+'.t.'+str(team)+'/players/percent_owned'
             response = oauth.session.get(url, params={'format': 'json'})
             data = response.json()
+            logging.info(data)
             playercount = 0
             for item in (data["fantasy_content"]["team"][1]["players"]):
                 if 'count' not in item:
