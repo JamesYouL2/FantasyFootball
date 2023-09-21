@@ -5,7 +5,8 @@ import csv
 import pandas as pd
 import logging
 
-logging.basicConfig(level=logging.info)
+logging.basicConfig(level=logging.INFO)
+
 class Roster:
     def __init__(self, leagueid, numteams = 10):
         self.leagueid = leagueid

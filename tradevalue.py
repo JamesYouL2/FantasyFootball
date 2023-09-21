@@ -2,6 +2,9 @@ from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
 import re
 import pandas as pd
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 class TradeValue:
     def get_links(self):
@@ -24,13 +27,16 @@ class TradeValue:
 
     def get_trade_value_dfs(self):
         dfs_list = []
-        for value in self.links.values():
-            pd.read_html(value)
-            dfs_list.append(pd.read_html(value)[0])
+        logging.info(self.links)
+        for key in self.links:
+            value = self.links[key]
+            df = pd.read_html(value)[0]
+            df['Position'] = key
+            dfs_list.append(df)
         all_dfs = pd.concat(dfs_list)
         all_dfs['Value'] = all_dfs['PPR'].fillna(0) + all_dfs['1QB'].fillna(0)
         
-        self.all_dfs = all_dfs[['Player','Value']]
+        self.all_dfs = all_dfs[['Player','Value', 'Position']]
     
     def __init__(self, base_link):
         self.base_link = base_link
