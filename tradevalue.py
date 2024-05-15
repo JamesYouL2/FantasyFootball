@@ -25,7 +25,7 @@ class TradeValue:
                     links[link_text] = link_value
         self.links = links
 
-    def get_trade_value_dfs(self):
+    def get_trade_value_dfs(self, superflex):
         dfs_list = []
         logging.info(self.links)
         for key in self.links:
@@ -34,11 +34,14 @@ class TradeValue:
             df['Position'] = key
             dfs_list.append(df)
         all_dfs = pd.concat(dfs_list)
-        all_dfs['Value'] = all_dfs['PPR'].fillna(0) + all_dfs['1QB'].fillna(0)
+        if superflex:
+            all_dfs['Value'] = all_dfs['PPR'].fillna(0) + all_dfs['2QB'].fillna(0)
+        else:
+            all_dfs['Value'] = all_dfs['PPR'].fillna(0) + all_dfs['1QB'].fillna(0)
         
         self.all_dfs = all_dfs[['Player','Value', 'Position']]
     
-    def __init__(self, base_link):
+    def __init__(self, base_link, superflex=False):
         self.base_link = base_link
         self.get_links()
-        self.get_trade_value_dfs()
+        self.get_trade_value_dfs(superflex)

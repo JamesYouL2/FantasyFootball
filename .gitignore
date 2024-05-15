@@ -6,3 +6,4 @@ test.tab
 auth/oauth2yahoo.json
 *.xlsx
 *.tab
+*csv
