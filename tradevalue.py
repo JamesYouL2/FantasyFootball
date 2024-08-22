@@ -19,7 +19,7 @@ class TradeValue:
 
         for link in soup.find_all('a'):
             if link.get('href') is not None:
-                if link.get('href').startswith("https://www.thescore.com/news"):
+                if link.get('href').startswith("https://www.thescore.com/news") or link.get('href').startswith("https://thescore.com/news"):
                     link_text = link.get_text()
                     link_value = link.get('href')
                     links[link_text] = link_value
