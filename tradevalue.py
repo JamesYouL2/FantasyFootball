@@ -15,7 +15,7 @@ class TradeValue:
         soup = BeautifulSoup(html_page, "lxml")
 
         links = {}
-        links['base'] = base_link
+        #links['base'] = base_link
 
         for link in soup.find_all('a'):
             if link.get('href') is not None:
