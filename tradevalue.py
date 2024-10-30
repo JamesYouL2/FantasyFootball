@@ -12,7 +12,8 @@ class TradeValue:
         req = Request(base_link)
         html_page = urlopen(req)
 
-        soup = BeautifulSoup(html_page, "lxml")
+        soup = BeautifulSoup(html_page)
+        #soup = BeautifulSoup(html_page, "lmxl")
 
         links = {}
         links['base'] = base_link
