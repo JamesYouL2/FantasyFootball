@@ -1,0 +1,1 @@
+This package allows you to analyze Fantasy Football with Yahoo/Sleeper Data.
