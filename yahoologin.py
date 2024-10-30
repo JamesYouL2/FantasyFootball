@@ -14,7 +14,10 @@ def yahoologin():
         auths = json.load(json_yahoo_file)
     yahoo_consumer_key = auths['consumer_key']
     yahoo_consumer_secret = auths['consumer_secret']
-    yahoo_access_key = auths['access_token']
+    try:
+        yahoo_access_key = auths['access_token']
+    except:
+        yahoo_access_key = ""
     yahoo_api = Yahoo_Api(yahoo_consumer_key, yahoo_consumer_secret, yahoo_access_key)#, yahoo_access_secret)
     return yahoo_api._login()
     

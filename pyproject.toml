@@ -12,6 +12,7 @@ bs4 = "^0.0.2"
 yahoo-api = "^1.0.1"
 ipykernel = "^6.29.5"
 yahoo-oauth = "^2.1.0"
+lxml = "^5.3.0"
 
 
 [build-system]
