@@ -2,6 +2,7 @@ import pandas as pd
 from roster import Roster
 from tradevalue import TradeValue
 
+#put league_ids in here
 LEAGUE_ID_LIST = [55598, 55617]
 
 def col_replace(df, column_name):
@@ -23,7 +24,7 @@ def df_to_csv(leagueid):
     return all_df
 
 def main():
-    for league_id in LEAGUE_ID_LIST():
+    for league_id in LEAGUE_ID_LIST:
         df_to_csv(league_id)
     
 if __name__ == "__main__":
