@@ -4,6 +4,7 @@ from tradevalue import TradeValue
 
 #put league_ids in here
 LEAGUE_ID_LIST = [55598, 55617]
+URL = "https://www.thescore.com/nfl/news/3155931/fantasy-trade-value-chart-playoff-edition"
 
 def col_replace(df, column_name):
     df[column_name] = df[column_name].str.replace('.', '', regex=False)
@@ -16,7 +17,7 @@ def col_replace(df, column_name):
 
 def df_to_csv(leagueid):
     team1 = Roster(leagueid=leagueid)
-    TradeValue_Class = TradeValue("https://www.thescore.com/nfl/news/3133428/fantasy-trade-value-chart-week-12")
+    TradeValue_Class = TradeValue(URL)
     TradeValue_df = col_replace(TradeValue_Class.all_dfs, 'Player')
     team1_df = col_replace(team1.roster_df, 'player_name')
     all_df = pd.merge(TradeValue_df,team1_df,left_on='Player',right_on='player_name',how='left')
