@@ -1,20 +1,13 @@
-[tool.poetry]
+[project]
 name = "fantasyfootball"
 version = "0.1.0"
 description = ""
-authors = ["James You"]
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-pandas = "^2.2.3"
-bs4 = "^0.0.2"
-yahoo-api = "^1.0.1"
-ipykernel = "^6.29.5"
-yahoo-oauth = "^2.1.0"
-lxml = "^5.3.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+dependencies = [
+    "bs4>=0.0.2",
+    "ipykernel>=6.29.5",
+    "lxml>=5.3.0",
+    "pandas>=2.2.3",
+    "yahoo-api>=1.0.1",
+    "yahoo-oauth>=2.1.1",
+]
